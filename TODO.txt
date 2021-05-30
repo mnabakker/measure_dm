@@ -1,0 +1,6 @@
+
+- add more/better Direct Input return value checks
+- timings could be a bit more precise, specially for throughput test
+- add keyboard capture, to be able to measure the latency differences for Keys2XInput's LowLevel Input Capture Method
+- determine/research how Fortnite actually does get the input for x360 and DS4 controllers
+  , this software uses Microsoft's recommended methods for high-paced FPS games
