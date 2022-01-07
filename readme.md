@@ -6,6 +6,9 @@ This software measures latencies from the HIQ(Hardware Input Queue) up until the
 - For x360 controllers XInput is used to detect movement
 - For DS4 controllers DirectInput is used to detect movement
 
+## Warning
+- For measuring Keys2XInput v2.2.2 and up, you have to deactivate their Fortnite bug 'Bus jump workaround'
+
 ## Notes
 - DirectInput will use 'immediate' mode for latency testing, and 'buffered' mode for throughput testing, you can change this behavior via cmd-line
 - XInput only has an 'immediate' mode
